@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summer Training</title>
+    <title>Summer Training TR-13 Report</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('https://www.clariwell.in/resources/uploads/Technical-Highlights-and-Roles-of-Mechanical-Design-Engineers.webp ');
+            background-image: url('https://www.clariwell.in/resources/uploads/Technical-Highlights-and-Roles-of-Mechanical-Design-Engineers.webp');
             background-size: cover;
             background-position: center;
             margin: 0;
@@ -15,81 +16,110 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         .container {
+            width: 90%;
+            max-width: 1100px;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 15px;
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for container */
-            padding: 20px;
-            border-radius: 10px;
         }
 
-        .button-container {
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        .button-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
-            gap: 10px;
-            max-width: 800px; /* Adjust width as needed */
-            margin: 20px auto;
+            grid-template-columns: repeat(4, 1fr);  /* 4 equal columns */
+            gap: 12px;
+            padding: 10px;
         }
 
-        button {
-            padding: 10px 20px;
-            background-color: #007bff; /* Button background color */
+        a button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 6px;
             cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
         }
 
-        input[type="button"]:hover {
-            background-color: #0056b3; /* Darker color on hover */
+        a button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive */
+        @media(max-width: 768px) {
+            .button-grid {
+                grid-template-columns: repeat(2, 1fr);  /* 2 columns on smaller screens */
+            }
+        }
+
+        @media(max-width: 480px) {
+            .button-grid {
+                grid-template-columns: repeat(1, 1fr);  /* 1 column on very small screens */
+            }
         }
     </style>
 </head>
+
 <body>
+
     <div class="container">
-        <h1>Summer Training TR-103</h1><br><br>
-       <div class="button-container">
+        <h1>Summer Training TR-13 Report</h1>
 
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day1.ipynb"><button type="button">Day 1</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day2.ipynb"><button type="button">Day 2</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day3.ipynb"><button type="button">Day 3</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day4.ipynb"><button type="button">Day 4</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day5.ipynb"><button type="button">Day 5</button></a>
+        <div class="button-grid">
 
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day6.ipynb"><button type="button">Day 6</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day7.ipynb"><button type="button">Day 7</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day8.ipynb"><button type="button">Day 8</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day9.ipynb"><button type="button">Day 9</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day10.ipynb"><button type="button">Day 10</button></a>
+            <!-- Days 1 to 28 -->
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day1.ipynb"><button>Day 1</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day2.ipynb"><button>Day 2</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day3.ipynb"><button>Day 3</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day4.ipynb"><button>Day 4</button></a>
 
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day11.ipynb"><button type="button">Day 11</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day12.ipynb"><button type="button">Day 12</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day13.ipynb"><button type="button">Day 13</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day14.ipynb"><button type="button">Day 14</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day15.ipynb"><button type="button">Day 15</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day5.ipynb"><button>Day 5</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day6.ipynb"><button>Day 6</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day7.ipynb"><button>Day 7</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day8.ipynb"><button>Day 8</button></a>
 
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day16.ipynb"><button type="button">Day 16</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day17.ipynb"><button type="button">Day 17</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day18.ipynb"><button type="button">Day 18</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day19.ipynb"><button type="button">Day 19</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day20.ipynb"><button type="button">Day 20</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day9.ipynb"><button>Day 9</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day10.ipynb"><button>Day 10</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day11.ipynb"><button>Day 11</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day12.ipynb"><button>Day 12</button></a>
 
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day21.ipynb"><button type="button">Day 21</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day22.ipynb"><button type="button">Day 22</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day23.ipynb"><button type="button">Day 23</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day24.ipynb"><button type="button">Day 24</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day25.ipynb"><button type="button">Day 25</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day13.ipynb"><button>Day 13</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day14.ipynb"><button>Day 14</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day15.ipynb"><button>Day 15</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day16.ipynb"><button>Day 16</button></a>
 
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day26.ipynb"><button type="button">Day 26</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day27.ipynb"><button type="button">Day 27</button></a>
-    <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day28.ipynb"><button type="button">Day 28</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day17.ipynb"><button>Day 17</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day18.ipynb"><button>Day 18</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day19.ipynb"><button>Day 19</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day20.ipynb"><button>Day 20</button></a>
 
-    <a href="https://raw.githubusercontent.com/singh-damanpreet04/Machine_Learning/refs/heads/main/Email_Spam_Classifier.py"><button type="button">Final Project</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day21.ipynb"><button>Day 21</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day22.ipynb"><button>Day 22</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day23.ipynb"><button>Day 23</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day24.ipynb"><button>Day 24</button></a>
 
-</div>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day25.ipynb"><button>Day 25</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day26.ipynb"><button>Day 26</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day27.ipynb"><button>Day 27</button></a>
+            <a href="https://colab.research.google.com/github/singh-damanpreet04/Machine_Learning/blob/main/Day28.ipynb"><button>Day 28</button></a>
 
+            <!-- Final Project -->
+            <a href="https://raw.githubusercontent.com/singh-damanpreet04/Machine_Learning/refs/heads/main/Email_Spam_Classifier.py">
+                <button>Final Project</button>
+            </a>
+
+        </div>
     </div>
+
 </body>
 </html>
